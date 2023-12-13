@@ -6,9 +6,10 @@ public static void main(String [] args){
     int ans = p.product(10,20);
     int ans2 = p.product(10,20,30);
     double ans3= p.product(10.0,20.0);
- System.out.println(ans+" "+ans2+" "+ans3);
+
+    System.out.println(ans+" "+ans2+" "+ans3);
 }
-static class Product{
+public static class Product{
  public int product(int x, int y) {
   return x*y;
  }
